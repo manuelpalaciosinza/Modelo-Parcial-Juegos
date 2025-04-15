@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CategoryEntity {
-    private Integer id;
+    private int id;
     private String name;
 
     public CategoryEntity(String name){

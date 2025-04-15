@@ -9,9 +9,9 @@ import lombok.*;
 @AllArgsConstructor
 
 public class GameEntity {
-    private Integer id;
+    private int id;
     private String title;
-    private Integer category_id;
+    private int category_id;
 
     public GameEntity(String title, Integer category_id){
         this.title = title;
